@@ -28,3 +28,4 @@ while start:
     if command2 > 1000:
           print("Gruppe2 hat mehr als 1000p = "+(str(command2)))
           start = False
+print(input())
