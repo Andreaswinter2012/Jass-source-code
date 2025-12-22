@@ -1,31 +1,34 @@
+from colorama import Fore, Back, Style
 command1 = 000
 #erste variable
 command2 = 000
 #zweite variable
 start = True
 while start:
+
     try: 
-      punkte1 = int(input("punkte1:"))
+      punkte1 = int(input("Team"+Fore.RED+"[1]"+Style.RESET_ALL+":"))
       #input1 variable
-      punkte2 = int(input("punkte2:"))
-      #input2 variable
       command1 += punkte1
       #dann wird erste variable addiert mit input variable
-      command2 += punkte2
-      #dann wird zweite variable addiert mit input variable
+      command2 += 157 - punkte1
+      #dann wird zweite variable addiert mit erste variable und minus 157
+      print("{")
+      print("Team"+Fore.RED+"[1]"+Style.RESET_ALL+":"+str(command1))
+      print("Team"+Fore.BLUE+"[2]"+Style.RESET_ALL+":"+str(command2))
+      print("}")
+      if command1 >= 1000:
+          print()
+          print("Team"+Fore.RED+"[1]"+Style.RESET_ALL+"hat 1000p oder mehr als 1000 = "+str(command1))
+          print()
+          start = False
+      if command2 >= 1000:
+          print()
+          print("Team"+Fore.BLUE+"[2]"+Style.RESET_ALL+"hat 1000p oder mehr als 1000 = "+str(command2))
+          print()
+          start = False
+
     except:
             print("Bitte screiben sie einen Zahl")
-         
-    if command1 == 1000:
-          print("Gruppe1 hat 1000p")
-          start = False
-    if command2 == 1000:
-          print("Gruppe2 hat 1000p")
-          start = False
-    if command1 > 1000:
-          print("Gruppe1 hat mehr als 1000p = "+(str(command1)))
-          start = False
-    if command2 > 1000:
-          print("Gruppe2 hat mehr als 1000p = "+(str(command2)))
-          start = False
-print(input())
+
+input("press enter to exit")
