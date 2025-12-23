@@ -1,4 +1,4 @@
-<h3>Die code von Jass Rechner ist offen für alle.</h3>
+<h3>Die Code von Jass Rechner ist offen für alle.</h3>
 <br>
 <h3>Le code de Jass Calculator est accessible à tous.</h3>
 <br>
