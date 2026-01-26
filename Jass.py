@@ -11,10 +11,10 @@ while start:
           #input1 variable
           command1 += punkte1
           #dann wird erste variable addiert mit input variable
+          if 157 - punkte1 < 0:
+              punkte1 = 157
           command2 += 157 - punkte1
           #dann wird zweite variable addiert mit erste variable und minus 157
-          if command2 < 0:
-                command2 = 0
           print("{")
           print("Team\033[91m[1]\033[0m:"+str(command1))
           print("Team\033[34m[2]\033[0m:"+str(command2))
