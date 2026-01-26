@@ -4,4 +4,4 @@
 <a href="https://drive.google.com/file/d/1ZijFXpc-hgAZHei-En69LbJYK1Yy3hdr/view?usp=sharing">Exe file windows 10/11 download by google drive</a>
 <br>
 <br>
-<a href="https://www.online-python.com/nrwsMXQFAB">And online run by online-python.com</a>
+<a href="https://www.online-python.com/13dNaTgVoF">And online run by online-python.com</a>
