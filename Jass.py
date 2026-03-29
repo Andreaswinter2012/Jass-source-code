@@ -31,8 +31,8 @@ while start:
               start = False
 
         except:
-                print("Bitte screiben sie einen Zahl")
-    print('Screiben sie "exit" um zu beenden oder "next" um weiter spielen')            
+                print("Bitte schreiben sie einen Zahl")
+    print('Schreiben sie "exit" um zu beenden oder "next" um weiter spielen')            
     start = input()
     if start == "exit":
         start = False
