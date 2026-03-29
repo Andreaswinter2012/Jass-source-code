@@ -32,9 +32,9 @@ while start:
                 start = False
 
         except:
-                put_text("Bitte screiben sie einen Zahl")
+                put_text("Bitte schreiben sie einen Zahl")
 
-    start = input('Screiben sie "exit" um zu beenden oder "next" um weiter spielen', type=TEXT)
+    start = input('Schreiben sie "exit" um zu beenden oder "next" um weiter spielen', type=TEXT)
     if start == "exit":
         start = False
         put_text("Beenden")
