@@ -2,7 +2,7 @@
 pkg install python3 -y
 pkg install termux-api
 pip install pywebio
-wget ...
+wget https://raw.githubusercontent.com/Andreaswinter2012/Jass-source-code/refs/heads/main/jass-mobil.py
 chmod 755 jass-mobil.py
 echo 'sie jetzt "python3 jass-mobil.py" eingeben zum starten oder auto starten machen muss man das ausfüren [echo "python3 jass-mobil.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc]'
 python3 jass-mobil.py
