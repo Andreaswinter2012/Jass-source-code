@@ -1,5 +1,5 @@
 #!/bin/bash
-pkg install python3 -y
+python3 --version || pkg install python3 -y
 pkg install termux-api -y
 pip install pywebio
 wget https://raw.githubusercontent.com/Andreaswinter2012/Jass-source-code/refs/heads/main/jass-mobil.py
