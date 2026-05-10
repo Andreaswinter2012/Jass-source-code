@@ -15,7 +15,7 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <pre>python3 jass.py</pre>
 <br>
 <p>Und Auto start in Termux macht so:</p>
-<pre>echo "python3 jass-mobil.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc</pre>
+<pre>echo "python3 jass.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc</pre>
 <br>
 <a href="https://drive.google.com/file/d/1FOefkg5Bb89DlVO274NOd_SHsAAo3EeV/view?usp=sharing">Exe Datei für Windows 10/11 herunterladen von Google Drive</a>
 <br>
