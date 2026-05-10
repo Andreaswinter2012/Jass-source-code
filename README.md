@@ -5,7 +5,9 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <br>
 <p>Für den auf android installieren muss man Termux installieren und das ein geben</p>
 <br>
-<p>wget https://raw.githubusercontent.com/Andreaswinter2012/Jass-source-code/refs/heads/main/install || pkg update && pkg install wget -y && chmod +x install && ./install</p>
+<pre>pkg update && pkg install wget -y </pre><p>Fürs wget zu installieren</p>
+<br>
+<pre>wget https://raw.githubusercontent.com/Andreaswinter2012/Jass-source-code/refs/heads/main/install && chmod +x install && ./install</pre>
 <br>
 <a href="">Exe Datei Windows 10/11 herunterladen von Google Drive</a>
 <br>
