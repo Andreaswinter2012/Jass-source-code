@@ -19,6 +19,7 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <br>
 <a href="">Exe Datei Windows 10/11 herunterladen von Google Drive</a>
 <br>
+<br>
 <p>Damit man es mit Webbrowser start muss man es mit cmd öffnen</p>
 <pre>jass.exe web</pre>
 <br>
