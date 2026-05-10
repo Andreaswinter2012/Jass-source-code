@@ -1,6 +1,6 @@
+#!/usr/bin/env python3
 import sys
 import os
-
 def cmd():
     start = True
     name1 = input("Geben sie den Namen eures Team[1]: ")
