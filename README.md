@@ -16,6 +16,6 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <br>
 <a href="">AppImage Datei fürs Linux-systeme</a>
 <br>
-<p>Fürs den Datei zugriff geben das eingeben:</p>
 <br>
+<p>Fürs den Datei zugriff geben das eingeben:</p>
 <pre>chmod +x jass.AppImage</pre>
