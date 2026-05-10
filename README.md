@@ -23,7 +23,7 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <p>Damit man es mit Webbrowser start muss man es mit cmd öffnen</p>
 <pre>jass.exe web</pre>
 <br>
-<a href="">AppImage Datei fürs Linux-systeme</a>
+<a href="https://github.com/Andreaswinter2012/Jass-source-code/raw/refs/heads/main/jass.AppImage">AppImage Datei fürs Linux-systeme</a>
 <br>
 <br>
 <p>Fürs den Datei zugriff geben das eingeben:</p>
