@@ -78,11 +78,11 @@ def web():
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "web":
         from pywebio import start_server
-        try:
+        if os.path.exists('/data/data/com.termux'): 
+            os.system(f"termux-open-url {url}")
+        else:
             import webbrowser
             webbrowser.open("http://localhost:8080/")
-        except:
-            os.system("termux-open-url http://localhost:8080/")
         start_server(web, port=8080)
     else:
         cmd()
