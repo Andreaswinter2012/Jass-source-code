@@ -25,7 +25,7 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <p>Oder Auto start mit Webbrowser in Termux macht so:</p>
 <pre>echo "python3 jass.py web" >> /data/data/com.termux/files/usr/etc/bash.bashrc</pre>
 <br>
-<a href="https://drive.google.com/file/d/1FOefkg5Bb89DlVO274NOd_SHsAAo3EeV/view?usp=sharing">Exe Datei für Windows 10/11 herunterladen von Google Drive</a>
+<a href="https://drive.google.com/file/d/11xVPShkCmr_G5Lhq8-KynuuKtN-V5STB/view?usp=sharing">Exe Datei für Windows 10/11 herunterladen von Google Drive</a>
 <br>
 <br>
 <p>Damit man es mit Webbrowser start muss man es mit cmd öffnen</p>
