@@ -1,7 +1,7 @@
 <h3>Der Code des Jass-Rechners ist Open Source.
 Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <h4>Dieses Projekt steht unter der GNU GPL v3 Lizenz.</h4>
-<h4>Das Programm unterstützt Windows, Linux und Android (Termux).</h4>
+<h4>Unterstützte Betriebssysteme: Windows, Linux, Android (Termux)</h4>
 <br>
 <p>Für den auf Android installieren muss man Termux installieren und das ein geben:</p>
 <br>
