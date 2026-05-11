@@ -3,6 +3,8 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <br>
 <h4>Dieses Projekt steht unter der GNU GPL v3 Lizenz.</h4>
 <br>
+<h5>Die ünter stüzte Betriebsysteme sind Windows Linux und Android(Termux)</h5>
+<br>
 <p>Für den auf Android installieren muss man Termux installieren und das ein geben:</p>
 <br>
 <p>Fürs wget zu installieren:</p>
@@ -14,8 +16,16 @@ Jeder darf ihn benutzen, verändern und weiterverbreiten.</h3>
 <p>Zum starten den Jass Rechner in Termux das eingeben:</p>
 <pre>python3 jass.py</pre>
 <br>
+<br>
+<p>Oder mit Webbrowser starten den Jass Rechner in Termux das eingeben:</p>
+<pre>python3 jass.py web</pre>
+<br>
 <p>Und Auto start in Termux macht so:</p>
 <pre>echo "python3 jass.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc</pre>
+<br>
+<br>
+<p>Oder Auto start mit Webbrowser in Termux macht so:</p>
+<pre>echo "python3 jass.py web" >> /data/data/com.termux/files/usr/etc/bash.bashrc</pre>
 <br>
 <a href="https://drive.google.com/file/d/1FOefkg5Bb89DlVO274NOd_SHsAAo3EeV/view?usp=sharing">Exe Datei für Windows 10/11 herunterladen von Google Drive</a>
 <br>
