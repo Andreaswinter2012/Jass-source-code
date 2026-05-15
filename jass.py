@@ -16,7 +16,10 @@ def cmd():
                 p_calc = punkte1
                 if 157 - p_calc < 0:
                     p_calc = 157
-                command2 += 157 - p_calc
+                if p_calc == 0:
+                    command2 += 257
+                else:
+                    command2 += 157 - p_calc
                 print("{")
                 print("Team\033[91m["+name1+"]\033[0m:"+str(command1))
                 print("Team\033[34m["+name2+"]\033[0m:"+str(command2))
@@ -25,7 +28,7 @@ def cmd():
                     print("\nTeam\033[91m["+name1+"]\033[0m hat 1000p oder mehr = "+str(command1)+"\n")
                     game_active = False
                 elif command2 >= 1000:
-                    print("\nTeam\033[34m["+name2+"]\033[0m hat 1000p или больше = "+str(command2)+"\n")
+                    print("\nTeam\033[34m["+name2+"]\033[0m hat 1000p oder mehr = "+str(command2)+"\n")
                     game_active = False
             except:
                 print("Bitte schreiben sie einen Zahl")
@@ -53,8 +56,13 @@ def web():
             try: 
                 punkte1 = web_in("Team["+name1+"]:", type=NUMBER)
                 command1 += punkte1
-                p_calc = 157 if 157 - punkte1 < 0 else punkte1
-                command2 += 157 - p_calc
+                p_calc = punkte1
+                if 157 - p_calc < 0:
+                    p_calc = 157
+                if p_calc == 0:
+                    command2 += 257
+                else:
+                    command2 += 157 - p_calc
                 put_text("{")
                 put_text("Team["+name1+"]:"+str(command1))
                 put_text("Team["+name2+"]:"+str(command2))
