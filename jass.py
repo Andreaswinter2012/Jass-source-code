@@ -33,7 +33,7 @@ def cmd():
             except:
                 print("Bitte schreiben sie einen Zahl")
         
-        choice = input('Schreiben sie "exit" um zu beenden или "next" um weiter spielen: ')
+        choice = input('Schreiben sie "exit" um zu beenden oder "next" um weiter spielen: ')
         if choice == "exit":
             start = False
             print("Beenden")
