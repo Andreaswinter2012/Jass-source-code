@@ -3,6 +3,6 @@ python3 --version || pkg install python3 -y
 pkg install termux-api -y
 pip list | grep "pywebio" || pip install pywebio
 wget https://raw.githubusercontent.com/Andreaswinter2012/Jass-source-code/refs/heads/main/jass.py
-echo 'sie jetzt "python3 jass.py web" eingeben zum starten mit Webbrowser oder auto starten machen muss man das ausfüren [echo "python3 jass.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc]'
 clear
+echo 'Sie können jetzt "python3 jass.py web" eingeben zum starten mit Webbrowser oder auto starten machen muss man das ausfüren [echo "python3 jass.py" >> /data/data/com.termux/files/usr/etc/bash.bashrc]'
 python3 jass.py 
