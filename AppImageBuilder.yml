@@ -1,0 +1,39 @@
+version: 1
+script:
+  - rm -rf AppDir || true
+  - mkdir -p AppDir/usr/bin AppDir/usr/src AppDir/usr/share/icons/hicolor/256x256/apps/
+  - echo '#!/bin/sh' > AppDir/usr/src/launcher.sh
+  - echo 'export PYTHONHOME=/usr' >> AppDir/usr/src/launcher.sh
+  - echo 'export PYTHONPATH=$APPDIR/usr/src:$PYTHONPATH' >> AppDir/usr/src/launcher.sh
+  - echo 'exec /usr/bin/python3 "$APPDIR/usr/src/main.py" "$@"' >> AppDir/usr/src/launcher.sh
+  - chmod +x AppDir/usr/src/launcher.sh
+  - echo '#include <stdlib.h>' > dummy.c
+  - echo '#include <unistd.h>' >> dummy.c
+  - echo 'int main(int argc, char *argv[]) {' >> dummy.c
+  - echo '  char path[1024];' >> dummy.c
+  - echo '  snprintf(path, sizeof(path), "%s/usr/src/launcher.sh", getenv("APPDIR"));' >> dummy.c
+  - echo '  argv[0] = path;' >> dummy.c
+  - echo '  execv(path, argv);' >> dummy.c
+  - echo '  return 1;' >> dummy.c
+  - echo '}' >> dummy.c
+  - gcc dummy.c -o AppDir/usr/bin/jass
+  - rm dummy.c
+  - cp -r src/* AppDir/usr/src/
+  - cp icon.png AppDir/usr/share/icons/hicolor/256x256/apps/game_icon.png
+  - python3 -m pip install --target=AppDir/usr/src/ -r requirements.txt
+
+AppDir:
+  path: ./AppDir
+  app_info:
+    id: org.calc.jass
+    name: Jass
+    icon: game_icon
+    version: 1.0.0
+    exec: usr/bin/jass
+    exec_args: "$@"
+
+AppImage:
+  arch: x86_64
+  update-information: 'none'
+  sign-key: 'none'
+
